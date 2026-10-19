@@ -1,11 +1,11 @@
 ---
 name: "bloodborne-character-sliders"
-description: "Recreate a Bloodborne character (from slider screenshots, an Imgur album or r/bloodbornesliders post, a slider list, or one of 37 built-in NPC faces) by writing it straight into an in-game Favourite slot in an unencrypted (shadPS4/bbport/decrypted) save."
+description: "Recreate a Bloodborne character (from slider screenshots, an Imgur album, a YouTube slider video, a slider list, or one of 37 built-in NPC faces) by writing it straight into an in-game Favourite slot in an unencrypted (shadPS4/bbport/decrypted) save."
 ---
 
 # Bloodborne sliders → Favourite slot
 
-Use this when someone gives Bloodborne appearance values (screenshots, an r/bloodbornesliders post, a typed list), or asks for an NPC's face, and wants that character in game.
+Use this when someone gives Bloodborne appearance values (screenshots, an Imgur album, a YouTube slider video, a typed list), or asks for an NPC's face, and wants that character in game.
 
 The main method writes the values straight into one of the 8 **Favourite** slots in the system save `userdata0010`, using `scripts/bb_favourite.py`. It takes seconds and was checked in game in Oct 2026:
 - It reproduces a game-written favourite byte for byte.
@@ -37,6 +37,7 @@ Everything sits in this skill's folder, which is also the repository https://git
 1. **Get values.**
    - For an NPC, use `presets/<name>.json`.
    - For an Imgur link, read the photos through the browser pane (see "Reading an Imgur album" below).
+   - For a YouTube link, read the frames through the browser pane (see "Reading a YouTube video" below).
    - A Reddit link can't be opened: web fetch refuses reddit.com and the browser pane blocks it for safety. Don't route around this with another browser. Ask the user to paste the post's image link (usually Imgur) or attach the screenshots.
    - Otherwise, transcribe page by page using the menu labels. Ask the user to confirm blurry numbers.
    - Choices picked from a colour palette (often pupil, tattoo or glasses colour) show no RGB numbers. Estimate them and say so. Swatches render darker than the real colour, so a pixel sample is only a rough guide.
@@ -71,6 +72,18 @@ Imgur can't be reached from the shells (the network allowlist returns 403) or fr
 - Photos of a TV (album `ptTAG`: 3264×2448 phone photos) are framed unpredictably. Show them uncropped, one or two per view, with `grid(i, 2, 0, 0, w, h, 1)`.
 - Picker grids show the selection as a brighter frame. Read the row and column from it, and remember the beard grid scrolls.
 - Photos of a TV are often blurry or at an angle. Ask the user to confirm doubtful digits rather than guessing.
+
+## Reading a YouTube video
+YouTube opens in the browser pane without per-step approvals, and the page's own `<video>` element can be drawn to a canvas and read. Nothing is downloaded. Tested Oct 2026 on `bjTDcsvsA1Q` (The Doll, 3 min 14 s, 720p): about 15 screenshots and no prompts.
+1. **Check the text first.** Run `javascript_tool` on `window.ytInitialPlayerResponse.videoDetails` (`title`, `author`, `lengthSeconds`, `shortDescription`). If the description lists the values, use those.
+2. **Set up the player.** `p = document.querySelector('#movie_player')`, `v = document.querySelector('video')`. Then `v.muted = true`, `p.setPlaybackQualityRange('hd1080')` (or the best of `p.getAvailableQualityLevels()`), `p.playVideo()`, wait about 4 s, `p.pauseVideo()`. Confirm `v.videoWidth`.
+3. **Seek helper.** `seekTo(t)` sets `v.currentTime`, waits for `seeked`, then one animation frame. Check that `getImageData` on a canvas the frame was drawn to doesn't throw. It worked on YouTube; a tainted canvas means falling back to pausing and taking a screenshot of each page.
+4. **Scan.** Every 0.5 s, draw the frame at 160×90 in greyscale and store the mean absolute difference from the previous sample. Same-page compression noise is about 1.3, and page changes are 2.5 or more. A 3-minute video scans in about 30 s; keep each call under about 100 s of video.
+5. **Pick frames.** Take runs of at least 2 samples with a difference below 2.0, and keep the middle of each run if it differs from the last kept frame by more than 2.2. Don't de-duplicate against all kept frames: pages with the same layout (Facial Balance and Forehead/Glabella, Lips and Mouth) look alike at this size and would be dropped.
+6. **View.** Draw the kept frames, cropped, onto canvases in a fixed full-screen overlay. YouTube enforces TrustedTypes, so build the overlay with `createElement` and `replaceChildren()`, never `innerHTML`. Use six per screenshot, with crop `[0, 53, 800, 587]` at 720p (scale it for 1080p), and label each with its timestamp. Use `browser_batch` to run sheet, screenshot, sheet, screenshot.
+7. **Check for gaps.** Walk the menu order (Scale, Base Skin, Skin Colour, Features, the 11 Face Shape pages, Eye Area, Lipstick, Hair/Facial Hair, Pupils, Tattoo/Mark/Glasses, Tweak). For any missing page, view the frames between its neighbours. Re-crop small digits (RGB values) and picker grids larger, for example `[0, 53, 680, 300]` with one column.
+- In scrolled pickers, match the first visible row against an unscrolled grid seen before. Female hair rows run ponytail, long and short bob at positions 9–11. The bottom row of a scrolled hair grid has 2 items.
+- Values a video doesn't show (gender, age, voice, glasses) get the same treatment as for screenshots: fill them sensibly and say so.
 
 ## Preset keys
 - **Sliders:**

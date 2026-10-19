@@ -1,18 +1,19 @@
 # Bloodborne character sliders: a Claude skill
 
-Give Claude a character from r/bloodbornesliders, an Imgur album or a few screenshots, and it puts that character into one of your **Favourite** slots. Then open the character creator and choose **Load Favourite**. No copying 100+ sliders by hand.
+Give Claude a character from an Imgur album, a YouTube slider video or a few screenshots, and it puts that character into one of your **Favourite** slots. Then open the character creator and choose **Load Favourite**. No copying 100+ sliders by hand.
 
 Under the hood, Claude reads the slider values from the images and writes them straight into your save file. It also comes with 37 NPC faces ready to use.
 
 ## What you can ask
 
 - "Make this character: https://imgur.com/a/…"
+- "Make the character from this video: https://www.youtube.com/watch?v=…"
 - *(attach screenshots)* "Put this character in a favourite slot."
 - "Give me Djura's face." / "Which NPC presets are there?"
 - "Export my favourite in slot 1 so I can share it."
 - "Delete favourite slot 8."
 
-Claude reads every slider page, checks pickers that scroll, and asks you about blurry digits. It writes the favourite (with a backup first) and tells you:
+Claude reads every slider page (or video frame), checks pickers that scroll, and asks you about blurry digits. It writes the favourite (with a backup first) and tells you:
 - which slot it went into;
 - which voice to pick, because favourites don't store the voice;
 - which values it had to estimate or fill in from the default face.
@@ -23,6 +24,7 @@ Claude reads every slider page, checks pickers that scroll, and asks you about b
 - **Claude able to reach your save folder and run Python 3:** Claude Code, or the Claude desktop app with your Bloodborne folder connected.
 - **The game closed while Claude writes.** The game keeps favourites in memory and overwrites the save file when it quits.
 - **For Imgur links:** the Claude desktop app's built-in browser. Imgur counts as a high-risk site there, so you approve each step; expect about 2 prompts per 6 screenshots.
+- **For YouTube links:** the same built-in browser. No approval prompts. Claude scans the video's frames in the page, keeps one per menu page, and reads them; nothing is downloaded. A 3-minute video takes a few minutes.
 - **Reddit links don't work:** Claude can't open reddit.com. Paste the post's Imgur link, or attach the screenshots instead.
 
 ## Install
