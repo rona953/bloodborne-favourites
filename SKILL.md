@@ -1,13 +1,13 @@
 ---
 name: "bloodborne-character-sliders"
-description: "Recreate a Bloodborne character (from slider screenshots, a Reddit post, a slider list, or one of 37 built-in NPC faces) by writing it straight into an in-game Favourite slot in an unencrypted (shadPS4/bbport/decrypted) save."
+description: "Recreate a Bloodborne character (from slider screenshots, an Imgur album or r/bloodbornesliders post, a slider list, or one of 37 built-in NPC faces) by writing it straight into an in-game Favourite slot in an unencrypted (shadPS4/bbport/decrypted) save."
 ---
 
 # Bloodborne sliders → Favourite slot
 
 Use this when someone gives Bloodborne appearance values (screenshots, an r/bloodbornesliders post, a typed list), or asks for an NPC's face, and wants that character in game.
 
-The main method writes the values straight into one of the 8 **Favourite** slots in the system save `userdata0010`, using `bb_favourite.py`. It takes seconds and was checked in game in Oct 2026:
+The main method writes the values straight into one of the 8 **Favourite** slots in the system save `userdata0010`, using `scripts/bb_favourite.py`. It takes seconds and was checked in game in Oct 2026:
 - It reproduces a game-written favourite byte for byte.
 - The Iosefka preset matches the game's own face file byte for byte.
 - Gender, age and clouded eyes load correctly.
@@ -15,11 +15,11 @@ The main method writes the values straight into one of the 8 **Favourite** slots
 Driving the in-game editor is a slow fallback, covered at the end.
 
 ## Files
-The tool is the repository https://github.com/rona953/bloodborne-favourites (this skill lives in its `skill/` folder). Its root contains:
-- `bb_favourite.py`, the writer. Run `python3 bb_favourite.py -h` for the field notes.
+Everything sits in this skill's folder, which is also the repository https://github.com/rona953/bloodborne-favourites. Paths below are relative to that folder, so run the commands from it (or with its full path).
+- `scripts/bb_favourite.py`, the writer: Python 3, no dependencies. Run `python3 scripts/bb_favourite.py -h` for the field notes.
 - `example_preset.json`, a complete player preset.
 - `presets/`, 37 NPC presets plus FromSoftware's default face, built from Herne's "Bloodborne NPC Face Data Compilation" (linked from bloodborne-wiki.com/p/sliders.html). `presets/INDEX.md` lists them.
-- `herne_to_presets.py`, which rebuilds `presets/` from that spreadsheet.
+- `scripts/herne_to_presets.py`, which rebuilds `presets/` from that spreadsheet.
 - `presets_user/`, characters transcribed from posts (for example `grumpy_grandpa.json`).
 - If the files are missing, clone that repository or ask the user for it. Don't rebuild the script from memory, because its template bytes have to be exact.
 
@@ -44,7 +44,7 @@ The tool is the repository https://github.com/rona953/bloodborne-favourites (thi
    - Keys are the in-game labels; case and punctuation don't matter. Sliders run 0–255.
    - Unknown keys make the script stop, which catches typos.
    - Save it in `presets_user/<name>.json` so it can be shared.
-3. **With the game closed**, run `python3 bb_favourite.py list SAVE`, then `python3 bb_favourite.py write SAVE preset.json [--slot N] [--force]`.
+3. **With the game closed**, run `python3 scripts/bb_favourite.py list SAVE`, then `python3 scripts/bb_favourite.py write SAVE preset.json [--slot N] [--force]`.
    - Without `--slot` it uses the first free slot.
    - It backs up to `userdata0010.bak-*` next to the save, writes, and reads back to check.
    - Fields the preset leaves out come from FromSoftware's default face (`BASE_PRESET` in the script), and the script lists them. `--base template` instead keeps the raw template, which is the author's own character, so use it only to reproduce a full dump exactly.
