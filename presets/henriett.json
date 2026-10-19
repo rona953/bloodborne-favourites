@@ -1,0 +1,153 @@
+{
+ "name": "Henriett",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "female",
+ "age": "young",
+ "voice": "Youthful",
+ "colours": {
+  "Base Skin Colour": "4th across",
+  "Hair Colour": [
+   128,
+   103,
+   55
+  ],
+  "Brow Colour": [
+   88,
+   53,
+   45
+  ],
+  "Eyelash Colour": [
+   0,
+   0,
+   0
+  ],
+  "Pupil Colour": [
+   128,
+   128,
+   128
+  ]
+ },
+ "scale adjustment": {
+  "Head": 78,
+  "Chest": 128,
+  "Abdomen": 128,
+  "Arms": 128,
+  "Legs": 128
+ },
+ "skin colour": {
+  "Skin Tone": 115,
+  "Skin Colour Layer 1": 135,
+  "Skin Colour Layer 2": 206,
+  "Skin Colour Layer 3": 132,
+  "Nose Bridge Colour": 175,
+  "Cheek Colour": 144,
+  "Laugh Lines": 120
+ },
+ "features": {
+  "Apparent Age": 48,
+  "Facial Aesthetic": 168,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 146,
+  "Nose/Forehead Ratio": 131,
+  "Face Protrusion": 102,
+  "Vertical Facial Spacing": 141,
+  "Facial Feature Slant": 134,
+  "Horizontal Facial Spacing": 114
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 145,
+  "Forehead Protrusion": 152,
+  "Nose Bridge Height": 184,
+  "Bridge Protrusion 1": 137,
+  "Bridge Protrusion 2": 139,
+  "Nose Bridge Width": 131
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 127,
+  "Inner Brow Ridge": 188,
+  "Outer Brow Ridge": 120
+ },
+ "eyes": {
+  "Eye Position": 157,
+  "Eye Size": 156,
+  "Eye Slant": 92,
+  "Eye Spacing": 86
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 85,
+  "Nose Ridge Length": 132,
+  "Nose Position": 153,
+  "Nose Tip Height": 126,
+  "Nose Protrusion": 138,
+  "Nose Height": 116,
+  "Nose Slant": 108
+ },
+ "nostrils": {
+  "Nostril Slant": 108,
+  "Nostril Size": 130,
+  "Nostril Width": 139,
+  "Nasal Size": 133
+ },
+ "cheeks": {
+  "Cheekbone Height": 111,
+  "Cheekbone Depth": 75,
+  "Cheekbone Width": 172,
+  "Cheekbone Protrusion": 103,
+  "Cheek Thickness": 100
+ },
+ "lips": {
+  "Lip Shape": 142,
+  "Mouth Expression": 100,
+  "Lip Fullness": 111,
+  "Lip Size": 142,
+  "Lip Protrusion": 74,
+  "Lip Thickness": 121
+ },
+ "mouth": {
+  "Mouth Protrusion": 100,
+  "Mouth Slant": 149,
+  "Occlusion": 157,
+  "Mouth Position": 88,
+  "Mouth Width": 183,
+  "Mouth-Chin Distance": 122
+ },
+ "chin": {
+  "Chin Tip Position": 84,
+  "Chin Length": 181,
+  "Chin Protrusion": 99,
+  "Chin Depth": 125,
+  "Chin Size": 123,
+  "Chin Height": 109,
+  "Chin Width": 153
+ },
+ "jaw": {
+  "Jaw Protrusion": 86,
+  "Jaw Width": 233,
+  "Lower Jaw": 194,
+  "Jaw Contour": 82
+ },
+ "eye area": {
+  "Tone Around Eyes": 202,
+  "Eye Socket Brightness": 138,
+  "Eyelid Brightness": 131,
+  "Eyelid Colour": 147,
+  "Eyeliner": 144,
+  "Eye Shadow": 132
+ },
+ "lipstick": {
+  "Lipstick 1": 87,
+  "Lipstick 2": 177
+ },
+ "items": {
+  "Hair": "7th down",
+  "Brow": "2nd down",
+  "Eyelashes": "2nd down",
+  "Pupil Size": "medium",
+  "Beard": 0,
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "voice: Youthful (guessed from age; set in game)"
+}

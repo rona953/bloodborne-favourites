@@ -1,0 +1,158 @@
+{
+ "name": "Nightmare Hunter (Axe)",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "male",
+ "age": "young",
+ "voice": "Youthful",
+ "colours": {
+  "Base Skin Colour": "1st",
+  "Hair Colour": [
+   192,
+   192,
+   192
+  ],
+  "Brow Colour": [
+   192,
+   192,
+   192
+  ],
+  "Beard Colour": [
+   192,
+   192,
+   192
+  ],
+  "Eyelash Colour": [
+   255,
+   255,
+   255
+  ],
+  "Pupil Colour": [
+   255,
+   255,
+   255
+  ]
+ },
+ "scale adjustment": {
+  "Head": 235,
+  "Chest": 192,
+  "Abdomen": 192,
+  "Arms": 142,
+  "Legs": 105
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 128,
+  "Skin Colour Layer 2": 128,
+  "Skin Colour Layer 3": 128,
+  "Nose Bridge Colour": 128,
+  "Cheek Colour": 128,
+  "Laugh Lines": 118
+ },
+ "features": {
+  "Apparent Age": 50,
+  "Facial Aesthetic": 78,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 78,
+  "Nose/Forehead Ratio": 0,
+  "Face Protrusion": 138,
+  "Vertical Facial Spacing": 18,
+  "Facial Feature Slant": 138,
+  "Horizontal Facial Spacing": 118
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 138,
+  "Forehead Protrusion": 118,
+  "Nose Bridge Height": 138,
+  "Bridge Protrusion 1": 118,
+  "Bridge Protrusion 2": 138,
+  "Nose Bridge Width": 118
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 255,
+  "Inner Brow Ridge": 127,
+  "Outer Brow Ridge": 138
+ },
+ "eyes": {
+  "Eye Position": 88,
+  "Eye Size": 178,
+  "Eye Slant": 158,
+  "Eye Spacing": 40
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 138,
+  "Nose Ridge Length": 118,
+  "Nose Position": 138,
+  "Nose Tip Height": 118,
+  "Nose Protrusion": 138,
+  "Nose Height": 118,
+  "Nose Slant": 138
+ },
+ "nostrils": {
+  "Nostril Slant": 48,
+  "Nostril Size": 118,
+  "Nostril Width": 68,
+  "Nasal Size": 118
+ },
+ "cheeks": {
+  "Cheekbone Height": 138,
+  "Cheekbone Depth": 118,
+  "Cheekbone Width": 138,
+  "Cheekbone Protrusion": 118,
+  "Cheek Thickness": 138
+ },
+ "lips": {
+  "Lip Shape": 138,
+  "Mouth Expression": 118,
+  "Lip Fullness": 138,
+  "Lip Size": 118,
+  "Lip Protrusion": 138,
+  "Lip Thickness": 118
+ },
+ "mouth": {
+  "Mouth Protrusion": 138,
+  "Mouth Slant": 118,
+  "Occlusion": 138,
+  "Mouth Position": 118,
+  "Mouth Width": 138,
+  "Mouth-Chin Distance": 118
+ },
+ "chin": {
+  "Chin Tip Position": 158,
+  "Chin Length": 58,
+  "Chin Protrusion": 168,
+  "Chin Depth": 100,
+  "Chin Size": 138,
+  "Chin Height": 118,
+  "Chin Width": 148
+ },
+ "jaw": {
+  "Jaw Protrusion": 138,
+  "Jaw Width": 118,
+  "Lower Jaw": 100,
+  "Jaw Contour": 118
+ },
+ "eye area": {
+  "Tone Around Eyes": 128,
+  "Eye Socket Brightness": 128,
+  "Eyelid Brightness": 128,
+  "Eyelid Colour": 128,
+  "Eyeliner": 128,
+  "Eye Shadow": 128
+ },
+ "lipstick": {
+  "Lipstick 1": 128,
+  "Lipstick 2": 128
+ },
+ "items": {
+  "Hair": "1st",
+  "Brow": "1st",
+  "Beard": "1st",
+  "Eyelashes": "2nd across",
+  "Pupil Size": "medium",
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "voice: Youthful (guessed from age; set in game)"
+}

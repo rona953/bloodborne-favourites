@@ -1,0 +1,158 @@
+{
+ "name": "Yahar'gul Hunter (Pick)",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "male",
+ "age": "young",
+ "voice": "Youthful",
+ "colours": {
+  "Base Skin Colour": "7th down, 2nd across",
+  "Hair Colour": [
+   170,
+   140,
+   70
+  ],
+  "Brow Colour": [
+   170,
+   140,
+   70
+  ],
+  "Beard Colour": [
+   170,
+   140,
+   70
+  ],
+  "Eyelash Colour": [
+   150,
+   145,
+   130
+  ],
+  "Pupil Colour": [
+   120,
+   90,
+   90
+  ]
+ },
+ "scale adjustment": {
+  "Head": 128,
+  "Chest": 255,
+  "Abdomen": 215,
+  "Arms": 245,
+  "Legs": 215
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 128,
+  "Skin Colour Layer 2": 128,
+  "Skin Colour Layer 3": 255,
+  "Nose Bridge Colour": 128,
+  "Cheek Colour": 128,
+  "Laugh Lines": 118
+ },
+ "features": {
+  "Apparent Age": 128,
+  "Facial Aesthetic": 38,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 128,
+  "Nose/Forehead Ratio": 188,
+  "Face Protrusion": 128,
+  "Vertical Facial Spacing": 218,
+  "Facial Feature Slant": 208,
+  "Horizontal Facial Spacing": 18
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 118,
+  "Forehead Protrusion": 98,
+  "Nose Bridge Height": 38,
+  "Bridge Protrusion 1": 128,
+  "Bridge Protrusion 2": 128,
+  "Nose Bridge Width": 108
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 125,
+  "Inner Brow Ridge": 128,
+  "Outer Brow Ridge": 128
+ },
+ "eyes": {
+  "Eye Position": 185,
+  "Eye Size": 108,
+  "Eye Slant": 128,
+  "Eye Spacing": 128
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 158,
+  "Nose Ridge Length": 88,
+  "Nose Position": 228,
+  "Nose Tip Height": 78,
+  "Nose Protrusion": 178,
+  "Nose Height": 128,
+  "Nose Slant": 128
+ },
+ "nostrils": {
+  "Nostril Slant": 78,
+  "Nostril Size": 88,
+  "Nostril Width": 48,
+  "Nasal Size": 58
+ },
+ "cheeks": {
+  "Cheekbone Height": 188,
+  "Cheekbone Depth": 128,
+  "Cheekbone Width": 128,
+  "Cheekbone Protrusion": 148,
+  "Cheek Thickness": 158
+ },
+ "lips": {
+  "Lip Shape": 128,
+  "Mouth Expression": 178,
+  "Lip Fullness": 128,
+  "Lip Size": 128,
+  "Lip Protrusion": 128,
+  "Lip Thickness": 118
+ },
+ "mouth": {
+  "Mouth Protrusion": 128,
+  "Mouth Slant": 128,
+  "Occlusion": 128,
+  "Mouth Position": 0,
+  "Mouth Width": 88,
+  "Mouth-Chin Distance": 128
+ },
+ "chin": {
+  "Chin Tip Position": 128,
+  "Chin Length": 128,
+  "Chin Protrusion": 128,
+  "Chin Depth": 128,
+  "Chin Size": 128,
+  "Chin Height": 128,
+  "Chin Width": 98
+ },
+ "jaw": {
+  "Jaw Protrusion": 128,
+  "Jaw Width": 138,
+  "Lower Jaw": 128,
+  "Jaw Contour": 178
+ },
+ "eye area": {
+  "Tone Around Eyes": 128,
+  "Eye Socket Brightness": 128,
+  "Eyelid Brightness": 128,
+  "Eyelid Colour": 128,
+  "Eyeliner": 158,
+  "Eye Shadow": 218
+ },
+ "lipstick": {
+  "Lipstick 1": 108,
+  "Lipstick 2": 128
+ },
+ "items": {
+  "Hair": "3rd across",
+  "Brow": "1st",
+  "Beard": "1st",
+  "Eyelashes": "1st",
+  "Pupil Size": "medium",
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "voice: Youthful (guessed from age; set in game)"
+}

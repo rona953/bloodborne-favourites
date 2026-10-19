@@ -1,0 +1,153 @@
+{
+ "name": "Iosefka",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "female",
+ "age": "young",
+ "voice": "Youthful",
+ "colours": {
+  "Base Skin Colour": "5th across",
+  "Hair Colour": [
+   155,
+   125,
+   120
+  ],
+  "Brow Colour": [
+   40,
+   40,
+   20
+  ],
+  "Eyelash Colour": [
+   0,
+   0,
+   0
+  ],
+  "Pupil Colour": [
+   100,
+   110,
+   90
+  ]
+ },
+ "scale adjustment": {
+  "Head": 168,
+  "Chest": 0,
+  "Abdomen": 0,
+  "Arms": 0,
+  "Legs": 128
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 138,
+  "Skin Colour Layer 2": 138,
+  "Skin Colour Layer 3": 138,
+  "Nose Bridge Colour": 128,
+  "Cheek Colour": 128,
+  "Laugh Lines": 118
+ },
+ "features": {
+  "Apparent Age": 88,
+  "Facial Aesthetic": 168,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 137,
+  "Nose/Forehead Ratio": 127,
+  "Face Protrusion": 127,
+  "Vertical Facial Spacing": 97,
+  "Facial Feature Slant": 127,
+  "Horizontal Facial Spacing": 57
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 57,
+  "Forehead Protrusion": 177,
+  "Nose Bridge Height": 197,
+  "Bridge Protrusion 1": 127,
+  "Bridge Protrusion 2": 127,
+  "Nose Bridge Width": 167
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 77,
+  "Inner Brow Ridge": 137,
+  "Outer Brow Ridge": 157
+ },
+ "eyes": {
+  "Eye Position": 87,
+  "Eye Size": 117,
+  "Eye Slant": 127,
+  "Eye Spacing": 127
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 118,
+  "Nose Ridge Length": 127,
+  "Nose Position": 137,
+  "Nose Tip Height": 147,
+  "Nose Protrusion": 137,
+  "Nose Height": 127,
+  "Nose Slant": 27
+ },
+ "nostrils": {
+  "Nostril Slant": 117,
+  "Nostril Size": 97,
+  "Nostril Width": 147,
+  "Nasal Size": 8
+ },
+ "cheeks": {
+  "Cheekbone Height": 97,
+  "Cheekbone Depth": 97,
+  "Cheekbone Width": 167,
+  "Cheekbone Protrusion": 137,
+  "Cheek Thickness": 127
+ },
+ "lips": {
+  "Lip Shape": 127,
+  "Mouth Expression": 157,
+  "Lip Fullness": 117,
+  "Lip Size": 97,
+  "Lip Protrusion": 97,
+  "Lip Thickness": 137
+ },
+ "mouth": {
+  "Mouth Protrusion": 37,
+  "Mouth Slant": 30,
+  "Occlusion": 167,
+  "Mouth Position": 47,
+  "Mouth Width": 137,
+  "Mouth-Chin Distance": 67
+ },
+ "chin": {
+  "Chin Tip Position": 117,
+  "Chin Length": 107,
+  "Chin Protrusion": 107,
+  "Chin Depth": 147,
+  "Chin Size": 127,
+  "Chin Height": 87,
+  "Chin Width": 187
+ },
+ "jaw": {
+  "Jaw Protrusion": 97,
+  "Jaw Width": 147,
+  "Lower Jaw": 147,
+  "Jaw Contour": 137
+ },
+ "eye area": {
+  "Tone Around Eyes": 135,
+  "Eye Socket Brightness": 148,
+  "Eyelid Brightness": 108,
+  "Eyelid Colour": 128,
+  "Eyeliner": 178,
+  "Eye Shadow": 195
+ },
+ "lipstick": {
+  "Lipstick 1": 98,
+  "Lipstick 2": 138
+ },
+ "items": {
+  "Hair": "5th down, 3rd across",
+  "Brow": "2nd down",
+  "Eyelashes": "2nd down",
+  "Pupil Size": "medium",
+  "Beard": 0,
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "voice: Youthful (guessed from age; set in game)"
+}

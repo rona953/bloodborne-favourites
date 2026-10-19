@@ -1,0 +1,153 @@
+{
+ "name": "Yahar'gul Hunter (Claws)",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "notes": "also used by: Cathedral Ward Hunter (Tonitrus); voice: Aged (guessed from age; set in game)",
+ "gender": "male",
+ "age": "aged",
+ "voice": "Aged",
+ "colours": {
+  "Base Skin Colour": "2nd down, 4th across",
+  "Hair Colour": [
+   128,
+   128,
+   128
+  ],
+  "Brow Colour": [
+   128,
+   128,
+   128
+  ],
+  "Beard Colour": [
+   128,
+   128,
+   128
+  ],
+  "Pupil Colour": [
+   128,
+   128,
+   128
+  ]
+ },
+ "scale adjustment": {
+  "Head": 128,
+  "Chest": 0,
+  "Abdomen": 0,
+  "Arms": 0,
+  "Legs": 0
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 128,
+  "Skin Colour Layer 2": 113,
+  "Skin Colour Layer 3": 255,
+  "Nose Bridge Colour": 128,
+  "Cheek Colour": 128,
+  "Laugh Lines": 108
+ },
+ "features": {
+  "Apparent Age": 128,
+  "Facial Aesthetic": 128,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 128,
+  "Nose/Forehead Ratio": 128,
+  "Face Protrusion": 128,
+  "Vertical Facial Spacing": 128,
+  "Facial Feature Slant": 128,
+  "Horizontal Facial Spacing": 128
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 128,
+  "Forehead Protrusion": 128,
+  "Nose Bridge Height": 128,
+  "Bridge Protrusion 1": 128,
+  "Bridge Protrusion 2": 128,
+  "Nose Bridge Width": 128
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 78,
+  "Inner Brow Ridge": 128,
+  "Outer Brow Ridge": 128
+ },
+ "eyes": {
+  "Eye Position": 128,
+  "Eye Size": 128,
+  "Eye Slant": 128,
+  "Eye Spacing": 128
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 128,
+  "Nose Ridge Length": 128,
+  "Nose Position": 128,
+  "Nose Tip Height": 128,
+  "Nose Protrusion": 128,
+  "Nose Height": 68,
+  "Nose Slant": 138
+ },
+ "nostrils": {
+  "Nostril Slant": 132,
+  "Nostril Size": 178,
+  "Nostril Width": 148,
+  "Nasal Size": 78
+ },
+ "cheeks": {
+  "Cheekbone Height": 168,
+  "Cheekbone Depth": 58,
+  "Cheekbone Width": 118,
+  "Cheekbone Protrusion": 88,
+  "Cheek Thickness": 88
+ },
+ "lips": {
+  "Lip Shape": 128,
+  "Mouth Expression": 128,
+  "Lip Fullness": 128,
+  "Lip Size": 128,
+  "Lip Protrusion": 128,
+  "Lip Thickness": 128
+ },
+ "mouth": {
+  "Mouth Protrusion": 128,
+  "Mouth Slant": 128,
+  "Occlusion": 128,
+  "Mouth Position": 128,
+  "Mouth Width": 128,
+  "Mouth-Chin Distance": 128
+ },
+ "chin": {
+  "Chin Tip Position": 128,
+  "Chin Length": 128,
+  "Chin Protrusion": 128,
+  "Chin Depth": 128,
+  "Chin Size": 128,
+  "Chin Height": 128,
+  "Chin Width": 128
+ },
+ "jaw": {
+  "Jaw Protrusion": 128,
+  "Jaw Width": 128,
+  "Lower Jaw": 128,
+  "Jaw Contour": 128
+ },
+ "eye area": {
+  "Tone Around Eyes": 128,
+  "Eye Socket Brightness": 148,
+  "Eyelid Brightness": 88,
+  "Eyelid Colour": 128,
+  "Eyeliner": 148,
+  "Eye Shadow": 138
+ },
+ "lipstick": {
+  "Lipstick 1": 128,
+  "Lipstick 2": 128
+ },
+ "items": {
+  "Hair": "3rd across",
+  "Brow": "1st",
+  "Beard": "1st",
+  "Eyelashes": "1st",
+  "Pupil Size": "medium",
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ }
+}

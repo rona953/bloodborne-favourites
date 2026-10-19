@@ -1,0 +1,158 @@
+{
+ "name": "Prospector Olek",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "male",
+ "age": "mature",
+ "voice": "Mature",
+ "colours": {
+  "Base Skin Colour": "8th down, 3rd across",
+  "Hair Colour": [
+   110,
+   80,
+   50
+  ],
+  "Brow Colour": [
+   110,
+   80,
+   50
+  ],
+  "Beard Colour": [
+   110,
+   80,
+   50
+  ],
+  "Eyelash Colour": [
+   0,
+   0,
+   0
+  ],
+  "Pupil Colour": [
+   120,
+   90,
+   90
+  ]
+ },
+ "scale adjustment": {
+  "Head": 128,
+  "Chest": 128,
+  "Abdomen": 128,
+  "Arms": 128,
+  "Legs": 128
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 128,
+  "Skin Colour Layer 2": 128,
+  "Skin Colour Layer 3": 255,
+  "Nose Bridge Colour": 128,
+  "Cheek Colour": 128,
+  "Laugh Lines": 105
+ },
+ "features": {
+  "Apparent Age": 128,
+  "Facial Aesthetic": 58,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 128,
+  "Nose/Forehead Ratio": 118,
+  "Face Protrusion": 68,
+  "Vertical Facial Spacing": 128,
+  "Facial Feature Slant": 118,
+  "Horizontal Facial Spacing": 98
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 178,
+  "Forehead Protrusion": 98,
+  "Nose Bridge Height": 88,
+  "Bridge Protrusion 1": 78,
+  "Bridge Protrusion 2": 128,
+  "Nose Bridge Width": 108
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 135,
+  "Inner Brow Ridge": 148,
+  "Outer Brow Ridge": 138
+ },
+ "eyes": {
+  "Eye Position": 148,
+  "Eye Size": 138,
+  "Eye Slant": 128,
+  "Eye Spacing": 118
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 118,
+  "Nose Ridge Length": 128,
+  "Nose Position": 108,
+  "Nose Tip Height": 148,
+  "Nose Protrusion": 118,
+  "Nose Height": 98,
+  "Nose Slant": 138
+ },
+ "nostrils": {
+  "Nostril Slant": 108,
+  "Nostril Size": 98,
+  "Nostril Width": 58,
+  "Nasal Size": 88
+ },
+ "cheeks": {
+  "Cheekbone Height": 138,
+  "Cheekbone Depth": 138,
+  "Cheekbone Width": 148,
+  "Cheekbone Protrusion": 118,
+  "Cheek Thickness": 138
+ },
+ "lips": {
+  "Lip Shape": 158,
+  "Mouth Expression": 158,
+  "Lip Fullness": 178,
+  "Lip Size": 88,
+  "Lip Protrusion": 128,
+  "Lip Thickness": 168
+ },
+ "mouth": {
+  "Mouth Protrusion": 128,
+  "Mouth Slant": 128,
+  "Occlusion": 128,
+  "Mouth Position": 198,
+  "Mouth Width": 138,
+  "Mouth-Chin Distance": 78
+ },
+ "chin": {
+  "Chin Tip Position": 128,
+  "Chin Length": 128,
+  "Chin Protrusion": 138,
+  "Chin Depth": 98,
+  "Chin Size": 138,
+  "Chin Height": 108,
+  "Chin Width": 108
+ },
+ "jaw": {
+  "Jaw Protrusion": 108,
+  "Jaw Width": 68,
+  "Lower Jaw": 138,
+  "Jaw Contour": 168
+ },
+ "eye area": {
+  "Tone Around Eyes": 128,
+  "Eye Socket Brightness": 128,
+  "Eyelid Brightness": 128,
+  "Eyelid Colour": 128,
+  "Eyeliner": 128,
+  "Eye Shadow": 158
+ },
+ "lipstick": {
+  "Lipstick 1": 108,
+  "Lipstick 2": 138
+ },
+ "items": {
+  "Hair": "1st",
+  "Brow": "1st",
+  "Beard": "1st",
+  "Eyelashes": "1st",
+  "Pupil Size": "medium",
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "voice: Mature (guessed from age; set in game)"
+}

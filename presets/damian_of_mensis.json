@@ -1,0 +1,158 @@
+{
+ "name": "Damian of Mensis",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "male",
+ "age": "aged",
+ "voice": "Aged",
+ "colours": {
+  "Base Skin Colour": "7th down, 4th across",
+  "Hair Colour": [
+   118,
+   108,
+   88
+  ],
+  "Brow Colour": [
+   128,
+   128,
+   128
+  ],
+  "Beard Colour": [
+   128,
+   128,
+   128
+  ],
+  "Eyelash Colour": [
+   128,
+   128,
+   128
+  ],
+  "Pupil Colour": [
+   128,
+   128,
+   128
+  ]
+ },
+ "scale adjustment": {
+  "Head": 128,
+  "Chest": 128,
+  "Abdomen": 128,
+  "Arms": 128,
+  "Legs": 128
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 218,
+  "Skin Colour Layer 2": 213,
+  "Skin Colour Layer 3": 145,
+  "Nose Bridge Colour": 128,
+  "Cheek Colour": 128,
+  "Laugh Lines": 98
+ },
+ "features": {
+  "Apparent Age": 88,
+  "Facial Aesthetic": 148,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 128,
+  "Nose/Forehead Ratio": 128,
+  "Face Protrusion": 128,
+  "Vertical Facial Spacing": 128,
+  "Facial Feature Slant": 128,
+  "Horizontal Facial Spacing": 128
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 78,
+  "Forehead Protrusion": 188,
+  "Nose Bridge Height": 128,
+  "Bridge Protrusion 1": 198,
+  "Bridge Protrusion 2": 88,
+  "Nose Bridge Width": 128
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 128,
+  "Inner Brow Ridge": 128,
+  "Outer Brow Ridge": 128
+ },
+ "eyes": {
+  "Eye Position": 178,
+  "Eye Size": 88,
+  "Eye Slant": 188,
+  "Eye Spacing": 138
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 88,
+  "Nose Ridge Length": 148,
+  "Nose Position": 168,
+  "Nose Tip Height": 128,
+  "Nose Protrusion": 128,
+  "Nose Height": 128,
+  "Nose Slant": 128
+ },
+ "nostrils": {
+  "Nostril Slant": 128,
+  "Nostril Size": 88,
+  "Nostril Width": 108,
+  "Nasal Size": 128
+ },
+ "cheeks": {
+  "Cheekbone Height": 128,
+  "Cheekbone Depth": 78,
+  "Cheekbone Width": 98,
+  "Cheekbone Protrusion": 88,
+  "Cheek Thickness": 158
+ },
+ "lips": {
+  "Lip Shape": 128,
+  "Mouth Expression": 128,
+  "Lip Fullness": 148,
+  "Lip Size": 118,
+  "Lip Protrusion": 78,
+  "Lip Thickness": 78
+ },
+ "mouth": {
+  "Mouth Protrusion": 118,
+  "Mouth Slant": 128,
+  "Occlusion": 128,
+  "Mouth Position": 58,
+  "Mouth Width": 128,
+  "Mouth-Chin Distance": 138
+ },
+ "chin": {
+  "Chin Tip Position": 158,
+  "Chin Length": 128,
+  "Chin Protrusion": 128,
+  "Chin Depth": 128,
+  "Chin Size": 128,
+  "Chin Height": 128,
+  "Chin Width": 128
+ },
+ "jaw": {
+  "Jaw Protrusion": 128,
+  "Jaw Width": 128,
+  "Lower Jaw": 178,
+  "Jaw Contour": 128
+ },
+ "eye area": {
+  "Tone Around Eyes": 128,
+  "Eye Socket Brightness": 128,
+  "Eyelid Brightness": 128,
+  "Eyelid Colour": 128,
+  "Eyeliner": 128,
+  "Eye Shadow": 148
+ },
+ "lipstick": {
+  "Lipstick 1": 118,
+  "Lipstick 2": 98
+ },
+ "items": {
+  "Hair": "4th down, 2nd across",
+  "Brow": "1st",
+  "Beard": "1st",
+  "Eyelashes": "1st",
+  "Pupil Size": "medium",
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "voice: Aged (guessed from age; set in game)"
+}

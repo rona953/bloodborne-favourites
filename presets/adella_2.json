@@ -1,0 +1,153 @@
+{
+ "name": "Adella 2",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "female",
+ "age": "young",
+ "voice": "Youthful",
+ "colours": {
+  "Base Skin Colour": "1st",
+  "Hair Colour": [
+   10,
+   0,
+   0
+  ],
+  "Brow Colour": [
+   60,
+   20,
+   0
+  ],
+  "Eyelash Colour": [
+   100,
+   60,
+   40
+  ],
+  "Pupil Colour": [
+   160,
+   100,
+   80
+  ]
+ },
+ "scale adjustment": {
+  "Head": 235,
+  "Chest": 128,
+  "Abdomen": 208,
+  "Arms": 138,
+  "Legs": 208
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 238,
+  "Skin Colour Layer 2": 43,
+  "Skin Colour Layer 3": 165,
+  "Nose Bridge Colour": 178,
+  "Cheek Colour": 118,
+  "Laugh Lines": 88
+ },
+ "features": {
+  "Apparent Age": 93,
+  "Facial Aesthetic": 158,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 128,
+  "Nose/Forehead Ratio": 128,
+  "Face Protrusion": 128,
+  "Vertical Facial Spacing": 138,
+  "Facial Feature Slant": 145,
+  "Horizontal Facial Spacing": 128
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 128,
+  "Forehead Protrusion": 198,
+  "Nose Bridge Height": 128,
+  "Bridge Protrusion 1": 128,
+  "Bridge Protrusion 2": 128,
+  "Nose Bridge Width": 128
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 128,
+  "Inner Brow Ridge": 128,
+  "Outer Brow Ridge": 128
+ },
+ "eyes": {
+  "Eye Position": 128,
+  "Eye Size": 108,
+  "Eye Slant": 128,
+  "Eye Spacing": 98
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 88,
+  "Nose Ridge Length": 128,
+  "Nose Position": 128,
+  "Nose Tip Height": 128,
+  "Nose Protrusion": 128,
+  "Nose Height": 128,
+  "Nose Slant": 88
+ },
+ "nostrils": {
+  "Nostril Slant": 118,
+  "Nostril Size": 108,
+  "Nostril Width": 128,
+  "Nasal Size": 128
+ },
+ "cheeks": {
+  "Cheekbone Height": 48,
+  "Cheekbone Depth": 90,
+  "Cheekbone Width": 208,
+  "Cheekbone Protrusion": 148,
+  "Cheek Thickness": 108
+ },
+ "lips": {
+  "Lip Shape": 138,
+  "Mouth Expression": 0,
+  "Lip Fullness": 145,
+  "Lip Size": 188,
+  "Lip Protrusion": 158,
+  "Lip Thickness": 168
+ },
+ "mouth": {
+  "Mouth Protrusion": 128,
+  "Mouth Slant": 128,
+  "Occlusion": 148,
+  "Mouth Position": 255,
+  "Mouth Width": 238,
+  "Mouth-Chin Distance": 138
+ },
+ "chin": {
+  "Chin Tip Position": 138,
+  "Chin Length": 158,
+  "Chin Protrusion": 138,
+  "Chin Depth": 158,
+  "Chin Size": 138,
+  "Chin Height": 128,
+  "Chin Width": 228
+ },
+ "jaw": {
+  "Jaw Protrusion": 118,
+  "Jaw Width": 235,
+  "Lower Jaw": 198,
+  "Jaw Contour": 88
+ },
+ "eye area": {
+  "Tone Around Eyes": 135,
+  "Eye Socket Brightness": 138,
+  "Eyelid Brightness": 168,
+  "Eyelid Colour": 88,
+  "Eyeliner": 235,
+  "Eye Shadow": 128
+ },
+ "lipstick": {
+  "Lipstick 1": 138,
+  "Lipstick 2": 138
+ },
+ "items": {
+  "Hair": "7th down",
+  "Brow": "2nd down, 2nd across",
+  "Eyelashes": "2nd down",
+  "Pupil Size": "clouded",
+  "Beard": 0,
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "clouded eyes (not available in the normal editor); voice: Youthful (guessed from age; set in game)"
+}

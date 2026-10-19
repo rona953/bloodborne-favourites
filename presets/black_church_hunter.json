@@ -1,0 +1,153 @@
+{
+ "name": "Black Church Hunter",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "female",
+ "age": "young",
+ "voice": "Youthful",
+ "colours": {
+  "Base Skin Colour": "7th down, 5th across",
+  "Hair Colour": [
+   0,
+   0,
+   0
+  ],
+  "Brow Colour": [
+   74,
+   40,
+   10
+  ],
+  "Eyelash Colour": [
+   148,
+   98,
+   38
+  ],
+  "Pupil Colour": [
+   110,
+   110,
+   80
+  ]
+ },
+ "scale adjustment": {
+  "Head": 128,
+  "Chest": 128,
+  "Abdomen": 128,
+  "Arms": 128,
+  "Legs": 128
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 188,
+  "Skin Colour Layer 2": 245,
+  "Skin Colour Layer 3": 108,
+  "Nose Bridge Colour": 168,
+  "Cheek Colour": 128,
+  "Laugh Lines": 108
+ },
+ "features": {
+  "Apparent Age": 83,
+  "Facial Aesthetic": 178,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 128,
+  "Nose/Forehead Ratio": 128,
+  "Face Protrusion": 118,
+  "Vertical Facial Spacing": 138,
+  "Facial Feature Slant": 145,
+  "Horizontal Facial Spacing": 128
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 128,
+  "Forehead Protrusion": 148,
+  "Nose Bridge Height": 128,
+  "Bridge Protrusion 1": 128,
+  "Bridge Protrusion 2": 128,
+  "Nose Bridge Width": 128
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 128,
+  "Inner Brow Ridge": 128,
+  "Outer Brow Ridge": 138
+ },
+ "eyes": {
+  "Eye Position": 98,
+  "Eye Size": 160,
+  "Eye Slant": 108,
+  "Eye Spacing": 147
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 98,
+  "Nose Ridge Length": 128,
+  "Nose Position": 158,
+  "Nose Tip Height": 228,
+  "Nose Protrusion": 228,
+  "Nose Height": 128,
+  "Nose Slant": 108
+ },
+ "nostrils": {
+  "Nostril Slant": 118,
+  "Nostril Size": 128,
+  "Nostril Width": 118,
+  "Nasal Size": 128
+ },
+ "cheeks": {
+  "Cheekbone Height": 118,
+  "Cheekbone Depth": 90,
+  "Cheekbone Width": 158,
+  "Cheekbone Protrusion": 178,
+  "Cheek Thickness": 138
+ },
+ "lips": {
+  "Lip Shape": 160,
+  "Mouth Expression": 130,
+  "Lip Fullness": 85,
+  "Lip Size": 138,
+  "Lip Protrusion": 98,
+  "Lip Thickness": 168
+ },
+ "mouth": {
+  "Mouth Protrusion": 68,
+  "Mouth Slant": 78,
+  "Occlusion": 188,
+  "Mouth Position": 95,
+  "Mouth Width": 165,
+  "Mouth-Chin Distance": 118
+ },
+ "chin": {
+  "Chin Tip Position": 168,
+  "Chin Length": 185,
+  "Chin Protrusion": 80,
+  "Chin Depth": 128,
+  "Chin Size": 118,
+  "Chin Height": 78,
+  "Chin Width": 168
+ },
+ "jaw": {
+  "Jaw Protrusion": 88,
+  "Jaw Width": 165,
+  "Lower Jaw": 185,
+  "Jaw Contour": 118
+ },
+ "eye area": {
+  "Tone Around Eyes": 135,
+  "Eye Socket Brightness": 148,
+  "Eyelid Brightness": 80,
+  "Eyelid Colour": 150,
+  "Eyeliner": 155,
+  "Eye Shadow": 148
+ },
+ "lipstick": {
+  "Lipstick 1": 68,
+  "Lipstick 2": 148
+ },
+ "items": {
+  "Hair": "7th down",
+  "Brow": "2nd down, 2nd across",
+  "Eyelashes": "3rd across",
+  "Pupil Size": "clouded",
+  "Beard": 0,
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "clouded eyes (not available in the normal editor); voice: Youthful (guessed from age; set in game)"
+}

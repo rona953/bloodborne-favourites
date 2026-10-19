@@ -1,0 +1,143 @@
+{
+ "name": "Younger Madaras Twin",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "male",
+ "age": "aged",
+ "voice": "Aged",
+ "colours": {
+  "Base Skin Colour": "3rd down, 3rd across",
+  "Eyelash Colour": [
+   255,
+   255,
+   255
+  ],
+  "Pupil Colour": [
+   150,
+   150,
+   150
+  ]
+ },
+ "scale adjustment": {
+  "Head": 128,
+  "Chest": 128,
+  "Abdomen": 128,
+  "Arms": 128,
+  "Legs": 128
+ },
+ "skin colour": {
+  "Skin Tone": 121,
+  "Skin Colour Layer 1": 137,
+  "Skin Colour Layer 2": 138,
+  "Skin Colour Layer 3": 246,
+  "Nose Bridge Colour": 118,
+  "Cheek Colour": 126,
+  "Laugh Lines": 98
+ },
+ "features": {
+  "Apparent Age": 133,
+  "Facial Aesthetic": 58,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 151,
+  "Nose/Forehead Ratio": 116,
+  "Face Protrusion": 124,
+  "Vertical Facial Spacing": 255,
+  "Facial Feature Slant": 146,
+  "Horizontal Facial Spacing": 121
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 131,
+  "Forehead Protrusion": 116,
+  "Nose Bridge Height": 34,
+  "Bridge Protrusion 1": 128,
+  "Bridge Protrusion 2": 137,
+  "Nose Bridge Width": 124
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 127,
+  "Inner Brow Ridge": 169,
+  "Outer Brow Ridge": 121
+ },
+ "eyes": {
+  "Eye Position": 159,
+  "Eye Size": 146,
+  "Eye Slant": 143,
+  "Eye Spacing": 116
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 120,
+  "Nose Ridge Length": 133,
+  "Nose Position": 123,
+  "Nose Tip Height": 105,
+  "Nose Protrusion": 136,
+  "Nose Height": 108,
+  "Nose Slant": 138
+ },
+ "nostrils": {
+  "Nostril Slant": 90,
+  "Nostril Size": 106,
+  "Nostril Width": 137,
+  "Nasal Size": 84
+ },
+ "cheeks": {
+  "Cheekbone Height": 127,
+  "Cheekbone Depth": 118,
+  "Cheekbone Width": 136,
+  "Cheekbone Protrusion": 107,
+  "Cheek Thickness": 78
+ },
+ "lips": {
+  "Lip Shape": 84,
+  "Mouth Expression": 162,
+  "Lip Fullness": 142,
+  "Lip Size": 120,
+  "Lip Protrusion": 123,
+  "Lip Thickness": 127
+ },
+ "mouth": {
+  "Mouth Protrusion": 131,
+  "Mouth Slant": 124,
+  "Occlusion": 130,
+  "Mouth Position": 112,
+  "Mouth Width": 144,
+  "Mouth-Chin Distance": 148
+ },
+ "chin": {
+  "Chin Tip Position": 197,
+  "Chin Length": 174,
+  "Chin Protrusion": 123,
+  "Chin Depth": 132,
+  "Chin Size": 139,
+  "Chin Height": 135,
+  "Chin Width": 102
+ },
+ "jaw": {
+  "Jaw Protrusion": 140,
+  "Jaw Width": 87,
+  "Lower Jaw": 203,
+  "Jaw Contour": 166
+ },
+ "eye area": {
+  "Tone Around Eyes": 127,
+  "Eye Socket Brightness": 139,
+  "Eyelid Brightness": 115,
+  "Eyelid Colour": 143,
+  "Eyeliner": 132,
+  "Eye Shadow": 125
+ },
+ "lipstick": {
+  "Lipstick 1": 106,
+  "Lipstick 2": 127
+ },
+ "items": {
+  "Hair": "2nd down",
+  "Brow": "2nd across",
+  "Beard": "1st",
+  "Eyelashes": "1st",
+  "Pupil Size": "medium",
+  "Glasses": 0,
+  "Tattoo/Mark": 0
+ },
+ "notes": "voice: Aged (guessed from age; set in game)"
+}

@@ -1,0 +1,149 @@
+{
+ "name": "Micolash",
+ "source": "Herne's Bloodborne NPC Face Data Compilation (via bloodborne-wiki.com/p/sliders.html)",
+ "gender": "male",
+ "age": "mature",
+ "voice": "Mature",
+ "colours": {
+  "Base Skin Colour": "1st",
+  "Pupil Colour": [
+   60,
+   20,
+   10
+  ],
+  "Tattoo/Mark Colour": [
+   60,
+   60,
+   60
+  ]
+ },
+ "scale adjustment": {
+  "Head": 128,
+  "Chest": 0,
+  "Abdomen": 0,
+  "Arms": 0,
+  "Legs": 0
+ },
+ "skin colour": {
+  "Skin Tone": 128,
+  "Skin Colour Layer 1": 128,
+  "Skin Colour Layer 2": 113,
+  "Skin Colour Layer 3": 255,
+  "Nose Bridge Colour": 128,
+  "Cheek Colour": 128,
+  "Laugh Lines": 128
+ },
+ "features": {
+  "Apparent Age": 128,
+  "Facial Aesthetic": 128,
+  "Form Emphasis": 128
+ },
+ "facial balance": {
+  "Nose Size": 128,
+  "Nose/Forehead Ratio": 78,
+  "Face Protrusion": 128,
+  "Vertical Facial Spacing": 8,
+  "Facial Feature Slant": 168,
+  "Horizontal Facial Spacing": 195
+ },
+ "forehead/glabella": {
+  "Forehead Depth": 85,
+  "Forehead Protrusion": 128,
+  "Nose Bridge Height": 255,
+  "Bridge Protrusion 1": 128,
+  "Bridge Protrusion 2": 128,
+  "Nose Bridge Width": 128
+ },
+ "brow ridge": {
+  "Brow Ridge Height": 80,
+  "Inner Brow Ridge": 88,
+  "Outer Brow Ridge": 238
+ },
+ "eyes": {
+  "Eye Position": 255,
+  "Eye Size": 108,
+  "Eye Slant": 128,
+  "Eye Spacing": 48
+ },
+ "nose ridge": {
+  "Nose Ridge Depth": 78,
+  "Nose Ridge Length": 68,
+  "Nose Position": 98,
+  "Nose Tip Height": 238,
+  "Nose Protrusion": 128,
+  "Nose Height": 138,
+  "Nose Slant": 98
+ },
+ "nostrils": {
+  "Nostril Slant": 108,
+  "Nostril Size": 128,
+  "Nostril Width": 118,
+  "Nasal Size": 78
+ },
+ "cheeks": {
+  "Cheekbone Height": 138,
+  "Cheekbone Depth": 188,
+  "Cheekbone Width": 128,
+  "Cheekbone Protrusion": 128,
+  "Cheek Thickness": 148
+ },
+ "lips": {
+  "Lip Shape": 150,
+  "Mouth Expression": 0,
+  "Lip Fullness": 208,
+  "Lip Size": 148,
+  "Lip Protrusion": 138,
+  "Lip Thickness": 215
+ },
+ "mouth": {
+  "Mouth Protrusion": 128,
+  "Mouth Slant": 90,
+  "Occlusion": 255,
+  "Mouth Position": 255,
+  "Mouth Width": 128,
+  "Mouth-Chin Distance": 40
+ },
+ "chin": {
+  "Chin Tip Position": 128,
+  "Chin Length": 248,
+  "Chin Protrusion": 128,
+  "Chin Depth": 108,
+  "Chin Size": 128,
+  "Chin Height": 68,
+  "Chin Width": 158
+ },
+ "jaw": {
+  "Jaw Protrusion": 88,
+  "Jaw Width": 128,
+  "Lower Jaw": 228,
+  "Jaw Contour": 198
+ },
+ "eye area": {
+  "Tone Around Eyes": 118,
+  "Eye Socket Brightness": 138,
+  "Eyelid Brightness": 168,
+  "Eyelid Colour": 128,
+  "Eyeliner": 188,
+  "Eye Shadow": 255
+ },
+ "lipstick": {
+  "Lipstick 1": 118,
+  "Lipstick 2": 118
+ },
+ "items": {
+  "Hair": "3rd down, 3rd across",
+  "Brow": "1st",
+  "Beard": "1st",
+  "Eyelashes": "1st",
+  "Pupil Size": "large",
+  "Tattoo/Mark": "2nd down, 3rd across",
+  "Glasses": 0
+ },
+ "tweak tattoo/mark": {
+  "Position (Verticle)": 70,
+  "Position (Horizontal)": 120,
+  "Angle": 0,
+  "Expansion": 130
+ },
+ "notes": "voice: Mature (guessed from age; set in game)"
+}
